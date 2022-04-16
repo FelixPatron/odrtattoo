@@ -1,0 +1,142 @@
+body {
+    background-image:url("backg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    color: black;
+    border-left: 10px double #fff;
+    border-right: 10px double #fff;
+    }
+img 
+{
+	max-width: 100%;
+}
+.üstbölüm{
+    text-align: center;
+    border-bottom: double #ffffff;
+    min-height: 5;
+    max-height: 5;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.üstbölümtext
+{
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	 text-shadow: 1px 1px 4px gray;
+	 
+
+}
+a:visited {
+    color: black;   
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+a:active {
+    color: white;    
+}
+
+.Logokonum {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.comingsoon{font-size: 65px;
+    letter-spacing: 16px;
+    text-align: center;
+    position: sticky;
+}    
+.kenarlık1 {
+    border: 6px double white;
+	border-radius: 4px;
+}
+.infotext{text-align: center;
+    font-size: 27px;
+    margin-top: 0px;
+} 
+.kutum1 {
+    font-size: 0,9rem;
+    padding: 20px;
+    display: block; 
+    margin: auto;
+    border: 2px solid black;
+    background-color: black;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 220px;    
+    color: white;
+    text-align: center; 
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.kutum2 {
+    font-size: 0,8rem;
+    padding: 15px;
+    display: block; 
+    margin: auto;
+    border: 3px solid white;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 170px;    
+    color: black;
+    text-align: center; 
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.embed-container { position: relative; 
+    margin: auto;
+    padding-bottom: 56,25%;
+     height: 0; 
+    overflow: hidden;
+    max-width: 100%; }
+ .embed-container iframe, 
+ .embed-container object, 
+ .embed-container embed { 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; }
+    @media only screen and (min-width:960px) {
+
+        .üstbölüm{
+            width:100%;
+            margin:0 auto;
+            margin-top:10px;
+            padding:20px;
+        }
+        
+        
+        }
+        @media only screen and (max-width:959px) {
+        
+        .yazia{
+            background:red;
+            color:#fff;
+            font-family: Arial;
+            position: relative;
+            text-align: right;
+        }
+    }
+        
+        @media only screen and (max-width:959px) {
+        
+            .yazib{
+                background:red;
+                color:#fff;
+                font-family: Arial;
+                position: relative;
+                text-align: right;
+            }
+        }
+    
